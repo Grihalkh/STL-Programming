@@ -1,24 +1,5 @@
 ﻿  ProgrammingSalibek.cpp
-C:\Users\griha\Desktop\НИС 3 курс\ProgrammingSalibek\task3.h(35,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4010,1): error C2100: недопустимое косвенное обращение
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4035): message : выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::set_intersection<_InIt1,_InIt2,_OutIt,std::less<void>>(_InIt1,_InIt1,_InIt2,_InIt2,_OutIt,_Pr)"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4035): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4035): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4035): message :             _OutIt=std::set<int,std::less<int>,std::allocator<int>>,
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4035): message :             _InIt1=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>,
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4035): message :             _InIt2=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>,
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4035): message :             _Pr=std::less<void>
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4035): message :         ]
-C:\Users\griha\Desktop\НИС 3 курс\ProgrammingSalibek\task3.h(78): message : выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::set_intersection<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>,std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>,std::set<int,std::less<int>,std::allocator<_Kty>>>(_InIt1,_InIt1,_InIt2,_InIt2,_OutIt)"
-C:\Users\griha\Desktop\НИС 3 курс\ProgrammingSalibek\task3.h(78): message :         with
-C:\Users\griha\Desktop\НИС 3 курс\ProgrammingSalibek\task3.h(78): message :         [
-C:\Users\griha\Desktop\НИС 3 курс\ProgrammingSalibek\task3.h(78): message :             _OutIt=std::set<int,std::less<int>,std::allocator<int>>,
-C:\Users\griha\Desktop\НИС 3 курс\ProgrammingSalibek\task3.h(78): message :             _Kty=int,
-C:\Users\griha\Desktop\НИС 3 курс\ProgrammingSalibek\task3.h(78): message :             _InIt1=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>,
-C:\Users\griha\Desktop\НИС 3 курс\ProgrammingSalibek\task3.h(78): message :             _InIt2=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>
-C:\Users\griha\Desktop\НИС 3 курс\ProgrammingSalibek\task3.h(78): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4011,13): error C2675: унарный "++": "_Iter" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4011,13): error C2675:         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4011,13): error C2675:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4011,13): error C2675:             _Iter=std::set<int,std::less<int>,std::allocator<int>>
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\algorithm(4011,13): error C2675:         ]
+D:\STL-Programming\task3.h(44,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\STL-Programming\task3.h(99,11): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+D:\STL-Programming\task3.h(131,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  ProgrammingSalibek.vcxproj -> D:\STL-Programming\Debug\ProgrammingSalibek.exe
