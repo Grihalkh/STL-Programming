@@ -32,5 +32,8 @@
     <ClInclude Include="task3.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="task4.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

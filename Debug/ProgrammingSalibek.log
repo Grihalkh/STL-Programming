@@ -1,5 +1,2 @@
 ﻿  ProgrammingSalibek.cpp
-D:\STL-Programming\task3.h(44,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\STL-Programming\task3.h(99,11): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
-D:\STL-Programming\task3.h(131,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-  ProgrammingSalibek.vcxproj -> D:\STL-Programming\Debug\ProgrammingSalibek.exe
+  ProgrammingSalibek.vcxproj -> C:\Users\griha\Desktop\НИС 3 курс\ProgrammingSalibek\Debug\ProgrammingSalibek.exe
