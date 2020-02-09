@@ -20,17 +20,41 @@ void task()
 
 	std::vector<std::string> word_arr = { "Пр1вет", "в7ему", "м1ру", "!" };
 	std::string word = "погромирование";
-	std::string sub = "евм";
+	std::string sub = "евм123456789";
 
-	std::vector<std::string> new_word_arr;
+	std::string new_sub;
 
-	for (char el : sub)
-	{
-		for (int i = 0; i < word_arr.size(); ++i)
+	// Формируем новую подстроку
+	for (auto& el : word_arr)
+		for (char c : el)
+			if (sub.find(c) != std::string::npos)
+				new_sub += c;
+
+	std::cout << "Новая подстрока: " << new_sub << std::endl;
+
+	int cnt = 0;
+	// Меняем цифры на DD
+	for (std::string::iterator it = new_sub.begin(); it != new_sub.end(); ++it)
+		if (std::isdigit(*it))
 		{
-			if (word_arr[i].find(el) != std::string::npos)
-				new_word_arr[i].append(el);
+			new_sub.replace(it, it + 1, "DD");
+			cnt++;
 		}
-		
+
+	std::cout << "Подстрока после замены цифр на DD: " << new_sub << std::endl;
+
+	// Удаляем символы в начале и формируем предложение
+	std::string sentence;
+
+	for (auto& el : word_arr)
+	{
+		el.erase(0, cnt);
+		sentence += el;
 	}
+
+	std::cout << "Предложение из урезанных слов: " << sentence << std::endl;
+
+	std::reverse(word.begin(), word.end());
+
+	std::cout << "Финальное предложение: " << word + sentence << std::endl;
 }
