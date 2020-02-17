@@ -103,7 +103,7 @@ void task()
         if (x > fin)
         {
             calc_reverse(x - op_plus, fin, way + "-" + std::to_string(op_plus));
-            if (x != 0) // Избегаем бесконечных ветвлений
+            if (x != 0 && x % op_mult == 0) // Избегаем бесконечных ветвлений + порверка на деление
                 calc_reverse(x / op_mult, fin, way + "/" + std::to_string(op_mult));
         }
         else if (x == fin)
