@@ -1,7 +1,7 @@
 ﻿// ProgrammingSalibek.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
-#include "task5.h"
+#include "task6.h"
 
 // I am 25'th
 
